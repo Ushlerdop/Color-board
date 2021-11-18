@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 30vw;
+}
+
+.cell {
+  background-color: #444;
+  width: 25px;
+  height: 25px;
+  margin: 4px;  
+  transition: 2s ease;
+}
+
+.cell:hover {
+  transition: 0s ease;
+}
